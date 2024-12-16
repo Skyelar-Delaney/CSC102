@@ -1,0 +1,32 @@
+<!-- Skyelar Delaney 12/01/2024 -->
+<!-- DOCTYPE this is the first ptage on the page and it tells the browser that it is an HTML page-->
+<!DOCTYPE html>
+<!-- the html tag goes next -->
+<html>
+    <!-- The head section has info for the browser and serch engine -->
+<head>
+    <title>Simple Craps Game</title>
+    <!-- adds link to our css file -->
+    <link rel="stylesheet" href="Game-1.css">
+</head>
+<body>
+    <h1>Craps Game</h1>
+    <p id="result"></p>
+    <!--Container div for the dice-->
+    <div id="dice">
+        <!--Dice 1 tageting for JS-->
+        <div class="die" id="dice1"></div>
+        <!--Dice 2 targeted with an id -->
+        <div class="die" id="dice2"></div>
+    </div>
+    <!--Gives a break in the page between sections-->
+    <br>
+    <!--Creates the button and allows it to be link and used-->
+    <button onclick="rollDice()">Roll Dice</button>
+    <!-- adds link to our javascript file -->
+    <script src="Game.js"></script>
+    <br>
+    <!--Allows an image to be linked to the page-->
+    <img src="dice.jpg">
+</body>
+</html>
