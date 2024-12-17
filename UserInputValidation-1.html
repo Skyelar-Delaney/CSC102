@@ -5,15 +5,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Gives a title to the webpage-->
     <title>User Input Validation</title>
     <!-- adds link to our css file -->
     <link rel="stylesheet" href="UserinputValidation.css">
 </head>
 <body>
+    <!--The main tital of the page-->
     <h1>Input User Validation</h1>
+    <!--Displays results of the user input validation-->
     <p id="conc_names"></p>
+    <!--allows javascript to reference the field-->
     <label>First Name:</label>
     <input type="text" name="FirstName" id="FirstName" />
+    <!--gives a break in between different aspects of the code-->
 <br><br>
     <label>Last Name:</label>
     <input type="text" name="LastName" id="LastName" />
@@ -21,6 +26,7 @@
     <label> Zip Code:</label>
     <input type="text" name="Zip" id="Zip" />
 <br><br>
+<!--button will trigger input validation and check with javascript-->
     <button id="run_code_btn" onclick="strCheck()">Submit</button>
     <!-- adds link to our javascript file -->
     <script src="UserInputValidation-1.js"></script>
