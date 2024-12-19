@@ -1,0 +1,29 @@
+<!--Skyelar Delaney Decemebr 15, 2024-->
+<!-- DOCTYPE this is the first ptage on the page and it tells the browser that it is an HTML page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--links CSS to HTML-->
+    <link rel="stylesheet" href="EventDrivenPrograming.css">
+</head>
+<body>
+    <!--Buttons to control movement-->
+    <button style="width: 60px; height: 30px; background-color: blueviolet; color:aliceblue;" onclick="startMoving('right')"> Right </button>
+    <button style="width: 60px; height: 30px; background-color: blueviolet; color:aliceblue;" onclick="startMoving('left')"> Left </button>
+    <button style="width: 60px; height: 30px; background-color: blueviolet; color:aliceblue;" onclick="startMoving('up')"> Up </button>
+    <button style="width: 60px; height: 30px; background-color: blueviolet; color:aliceblue;" onclick="startMoving('down')"> Down </button>
+    <button style="width: 60px; height: 30px; background-color: blueviolet; color:aliceblue;" onclick="stopMoving()"> Stop </button>
+
+
+    <br>
+    <!--Container holding the image-->
+    <div id="container">
+    <img  id="Tardis" src="Tardis.gif"/>
+    </div>
+    <!--links JS to HTML-->
+    <script src="EventDrivenPrograming.js"></script>
+</body>
+</html>
