@@ -1,0 +1,14 @@
+body{
+    background-image: url(galaxy.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#container {
+    width: 100vw;
+    height: 100wv;
+    display: flex;
+    position: relative;
+}
+#Tardis {
+    position: absolute;
+}

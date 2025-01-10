@@ -1,0 +1,26 @@
+th, td {
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    width:25%;
+}
+button {
+    background-color: blanchedalmond;
+    color: black;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+html {
+    background-image: linear-gradient(rgba(239, 54, 85, 0.763),rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+}
+
+nav {
+    text-align: center;
+}
